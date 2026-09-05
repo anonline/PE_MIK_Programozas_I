@@ -1,0 +1,14 @@
+# macOS rendszerfájlok
+.DS_Store
+
+# VS Code beállítások és workspace fájlok
+.vscode/
+*.code-workspace
+
+# Lefordított C programok és debug szimbólumok
+*.o
+*.out
+*.dSYM/
+
+# Az eddig használt futtatható fájljaid
+main
