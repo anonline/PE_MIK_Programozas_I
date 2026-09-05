@@ -1,8 +1,7 @@
 # macOS rendszerfájlok
 .DS_Store
 
-# VS Code beállítások és workspace fájlok
-.vscode/
+# VS Code workspace fájlok
 *.code-workspace
 
 # Lefordított C programok és debug szimbólumok
