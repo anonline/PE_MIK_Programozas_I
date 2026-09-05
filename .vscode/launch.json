@@ -2,20 +2,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "C/C++: gcc build and debug active file",
-            "type": "cppdbg",
+            "name": "C/C++: CodeLLDB Debug",
+            "type": "lldb",
             "request": "launch",
             "program": "${fileDirname}/output/${fileBasenameNoExtension}",
             "args": [],
-            "stopAtEntry": false,
             "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb",
             "preLaunchTask": "C/C++: gcc build active file",
-            "logging": {
-                "moduleLoad": false
-            }
+            "terminal": "integrated"
         }
     ]
 }
